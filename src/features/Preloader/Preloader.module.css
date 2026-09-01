@@ -1,0 +1,31 @@
+.dots {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  block-size: 100vh;
+}
+
+.dot {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: var(--accent-color);
+  animation: bounce 0.9s ease-in-out infinite;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.15s;
+  background: var(--accent-color);
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0.6);
+    opacity: 0.5;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

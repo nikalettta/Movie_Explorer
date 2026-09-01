@@ -1,0 +1,26 @@
+.movie_list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-block-end: 10px;
+}
+
+.wrapper {
+  inline-size: 100%;
+  overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+  height: 10px;
+}
+
+.wrapper::-webkit-scrollbar-track {
+  background: var(--soft-color);
+  border-radius: 10px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+  background: var(--light-color);
+  border-radius: 10px;
+  border: 2px solid var(--soft-color);
+}

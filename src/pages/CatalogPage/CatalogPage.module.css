@@ -1,0 +1,81 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.decoration_zone {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.header_zone {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.accent_title {
+  font-family: var(--accent-font);
+  font-size: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text_pink {
+  color: var(--accent-color)
+}
+
+.number_container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: var(--soft-color);
+}
+
+.number {
+  font-family: var(--accent-font);
+  font-size: 96px;
+}
+
+.number_description {
+  font-weight: 300;
+}
+
+.serch_zone {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.tabs_wrapper {
+  inline-size: 100%;
+  overflow-x: auto;
+}
+
+.tabs_wrapper::-webkit-scrollbar {
+  height: 10px;
+}
+
+.tabs_wrapper::-webkit-scrollbar-track {
+  background: var(--soft-color);
+  border-radius: 10px;
+}
+
+.tabs_wrapper::-webkit-scrollbar-thumb {
+  background: var(--light-color);
+  border-radius: 10px;
+  border: 2px solid var(--soft-color);
+}
+
+.tabs_list {
+  display: flex;
+  gap: 20px;
+  padding-block-end: 10px;
+  width: max-content;
+}
+
+.tab {
+  list-style: none;
+}

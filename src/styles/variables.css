@@ -1,0 +1,15 @@
+:root {
+  /* typography */
+  --accent-font: 'Raydis', sans-serif;
+  --basic-font: 'Unbounded', serif;
+
+  --basic-weight: 200;
+  --accent-weight: 500;
+
+  /* colors */
+  --bg-color: #13152F;
+  --accent-color: #F4ABC4;
+  --soft-color: #333456;
+  --light-color: #595B83;
+  --white-color: #fff;
+}

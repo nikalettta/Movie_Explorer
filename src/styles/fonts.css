@@ -1,0 +1,14 @@
+
+@font-face {
+  font-family: 'Raydis';
+  src: url(./fonts/ofont.ru_Raydis.woff) format('woff'),
+       url(./fonts/ofont.ru_Raydis.woff2) format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url(./fonts/Unbounded-VariableFont_wght.woff2) format('woff2');
+  font-weight: 200 900;
+  font-display: swap;
+}

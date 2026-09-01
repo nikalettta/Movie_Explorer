@@ -1,0 +1,50 @@
+.input_container {
+  position: relative;
+}
+
+.input {
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 15px 90px 15px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--light-color);
+  inline-size: 100%;
+}
+
+.input::placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--bg-color);
+}
+
+.search_button {
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  bottom: 5px;
+  inline-size: 100px;
+  block-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--soft-color);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: inline-size 0.3s ease;
+}
+
+.search_button:hover {
+  inline-size: 110px;
+}
+
+.icon {
+  color: var(--accent-color);
+  stroke-width: 2px;
+  transition: stroke-width 0.3s ease;
+}
+
+.search_button:hover .icon {
+  stroke-width: 3px;
+}

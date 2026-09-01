@@ -1,0 +1,40 @@
+.button {
+  padding: 15px 20px;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button:hover .span {
+  font-weight: var(--accent-weight);
+}
+
+.span {
+  font-family: inherit;
+  font-weight: inherit;
+  transition: font-weight 0.3s ease;
+}
+
+.accent {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+}
+
+.secondary {
+  background-color: var(--light-color);
+  color: var(--white-color);
+}
+
+.genre {
+  background-color: var(--soft-color);
+  color: var(--white-color);
+  transition: background-color 0.5s ease;
+}
+
+.genre.isActive {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+}

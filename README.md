@@ -1,32 +1,27 @@
-# React + TypeScript + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Веб-приложение для поиска и просмотра информации о фильмах: рейтинги, описание, актёрский состав. Встроенные и кастомные подборки.
 
-Currently, two official plugins are available:
+## 🚀 Демо
+----
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Функционал
+- Поиск фильмов по названию
+- Фильтрация по жанру
+- Окно с подробной информацией о фильме
+- Список актеров выбранного фильма
+- Подборка популярных фильмов
 
-## React Compiler
+## 🛠 Технологии
+React, TypeScript, TMDB API, CSS Modules, Redux
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📋 Планы
+- Темная тема
+- Страница избранное
+- Страничка актера с краткой биографией и списком фильмов с его участием
+- Страница с подборками, возможность делать кастомные
+- Добавить авторизацию
+- Возможность смотреть чужие профили и подборки
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 👤 Автор
+Ника https://github.com/nikalettta
